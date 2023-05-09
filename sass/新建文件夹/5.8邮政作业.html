@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="two.css">
+    <link
+    rel="stylesheet"
+    href="swiper-bundle.min.css"
+  />
+  <link href="https://unpkg.com/layui@2.8.2/dist/css/layui.css" rel="stylesheet">
+  <script src="https://a.amap.com/jsapi_demos/static/demo-center/js/demoutils.js"></script>
+  <script type="text/javascript">
+    window._AMapSecurityConfig = {
+      securityJsCode: "51f8fcb253b46c6da6dfb0a19ed93f93",
+    };
+  </script>
+  <script
+    type="text/javascript"
+    src="https://webapi.amap.com/maps?v=2.0&key=78a26948d707a6805e84a368783190d3&plugin=AMap.Driving"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cache.amap.com/lbs/static/addToolbar.js"
+  ></script>
+</head>
+<body>
+    <div id="top">
+    <div id="box">
+    <select name="" id="">
+        <option value="">控股公司及寄递事业部</option>
+        <option value="">中国邮政储蓄银行</option>
+        <option value="">中邮人寿保险股份有限公司</option>
+        <option value="">中邮证券有限责任公司</option>
+        <option value="">中邮资本管理有限公司</option>
+        <option value="">集团公司寄递事业部</option>
+    </select><span>|</span>
+    <select name="" id="">
+        <option value="">集团工会及直属单位</option>
+        <option value="">中国邮政总公司</option>
+        <option value="">邮政科学研究规划院</option>
+        <option value="">中国邮政文史中心</option>
+        <option value="">新闻宣传中心</option>
+        <option value="">邮票印制局</option>
+        <option value="">石家庄邮电职业技术新学院</option>
+        <option value="">中邮电子商务有限公司</option>
+        <option value="">中国邮政广告传媒公司</option>
+        <option value="">中邮信息科技（北京）</option>
+        <option value="">中邮实业投资有限公司</option>
+    </select><span>|</span>
+    <select name="" id="">
+        <option value="">北京</option>
+        <option value="">上海</option>
+        <option value="">河南</option>
+        <option value="">天津</option>
+        <option value="">新疆</option>
+        <option value="">宁夏</option>
+        <option value="">重庆</option>
+        <option value="">云南</option>
+        <option value="">浙江</option>
+    </select><span>|</span>
+    <a href="">English</a>
+</div>
+</div>
+<div id="center">
+    <div id="nav">
+        <b>中国邮政</b>
+        <ul class="" lay-filter="test">
+            <li class="jin"  data-url="考试2.html">
+                <a class="" >首页</a>
+            </li>
+            <li class="zuo"data-url="昨天.html">
+                <a href="javascript:;">关于我们</a>
+            </li>
+            <li class="zhou" data-url="近7日.html"><a href="javascript:;">新闻中心</a></li>
+            <li class="yue" data-url="近30日.html"><a href="javascript:;">党建时空</a>
+                <li class="jin"  data-url="考试2.html">
+                <a class="" >产品服务</a>
+            </li>
+            <li class="zuo"data-url="昨天.html">
+                <a href="javascript:;">社会责任</a>
+            </li>
+            <li class="zhou" data-url="近7日.html"><a href="javascript:;">企业文化</a></li>
+            </li>
+        </ul>
+        <div id="sou">
+        <input type="text" name="" id="inp">
+        <input type="button" name="" id="btn" value="搜索">
+    </div>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="http://www.chinapost.com.cn/res/ChinaPostJT/page/23049817.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapost.com.cn/res/ChinaPostJT/page/22111563.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapost.com.cn/res/ChinaPostJT/page/23032127.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapost.com.cn/res/ChinaPostJT/page/22062839.png" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapost.com.cn/res/ChinaPostJT/page/220574014.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapost.com.cn/res/ChinaPostJT/page/2012680921.jpg" alt=""></div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+    
+    <div id="fei">更多专题</div>
+    <div id="tan">
+        <div class="one">邮务业务</div>
+        <div class="one">快递业务</div>
+        <div class="one">银行业务</div>
+        <div class="one">保险业务</div>
+        <div class="one">证券业务</div>
+        <div class="one">网上商城</div>
+    </div>
+    <!-- 第二个轮播图 -->
+    <div id="cenbut">
+    <div id="erlun">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="http://www.chinapostnews.com.cn/newspaper/epaper/res/1/20230506/93511683344867317.jpg#auto" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapostnews.com.cn/newspaper/epaper/res/1/20230505/12131683265292583.jpg#auto" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapostnews.com.cn/newspaper/epaper/res/1/20230429/30881682711152247.jpg#auto" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapostnews.com.cn/newspaper/epaper/res/1/20230428/29891682656289544.jpg#auto" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapostnews.com.cn/newspaper/epaper/res/1/20230426/16491682485771029.jpg#auto" alt=""></div>
+          <div class="swiper-slide"><img src="http://www.chinapostnews.com.cn/newspaper/epaper/res/1/20230425/41221682394662794.jpg#auto" alt=""></div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="layui-tab layui-tab-brief"id="spp">
+        <ul class="layui-tab-title" >
+          <li>一线风采</li>
+          <li>媒体聚焦</li>
+          <li>综合新闻</li>
+          <li class="layui-this">集团要闻</li>
+        </ul>
+        <div id='rig'>
+            <h2>2023第19届中华全国集邮展览开幕</h2>
+            <span>珍邮耀春城，集藏品天下。4月27日，2023第19届中华全国集邮展览在云南昆明滇池国际会展中心隆重开幕。十二届全国政协副主席、中国福利会主...</span>
+        </div>
+        <div class="layui-tab-content">
+          <div class="layui-tab-item">
+            五大差异化增长极”建设成效
+    </div>
+          <div class="layui-tab-item">中邮保险价值转型成效显著</div>
+          <div class="layui-tab-item">邮储银行一季度经营发展稳健开局 “五大差异化增长极”建设成效...</div>
+          <div class="layui-tab-item layui-show">
+            <ol id="wu">
+            <li>邮储银行党委举办主题教育读书班 <span>2023-04-27</span></li>
+            <li>中邮保险价值转型成效显著<span>2023-04-27</span></li>
+            <li>邮储银行一季度经营发展稳健开局 “五大差异化增长极”建设成效...<span>2023-04-27</span></li>
+            <li>中国邮政助力法院审判执行质效提高实现双赢多赢共赢<span>2023-04-27</span></li>
+            <li>集团公司表彰2022年劳动竞赛先进集体和个人<span>2023-04-27</span></li>
+        </ol>
+    </div>
+        </div>
+      </div>
+</div>
+<div id="shi">
+<div id="radi">邮政视频</div>
+<video controls width="500px"autoplay muted loop>
+    <source src="视频1.mp4"type="video/mp4">
+   </video>
+   <div class="layui-tab layui-tab-brief"id="spp" style="margin-top: -3%;">
+    <ul class="layui-tab-title" >
+      <li style="font-size: 20px; margin-right: 0px;">预决算公开</li>
+      <li style="font-size: 20px;margin-left: 50px;">采购公告公示</li>
+      <li style="font-size: 20px; margin-left: 10px;">邮资票品发行信息</li>
+      <li class="layui-this" style="font-size: 20px; margin-left: 0;">信息公告</li>
+    </ul>
+    <div id='rig'>
+        <h2>2023第19届中华全国集邮展览开幕</h2>
+        <span>珍邮耀春城，集藏品天下。4月27日，2023第19届中华全国集邮展览在云南昆明滇池国际会展中心隆重开幕。十二届全国政协副主席、中国福利会主...</span>
+    </div>
+    <div class="layui-tab-content">
+      <div class="layui-tab-item">
+        五大差异化增长极”建设成效
+</div>
+      <div class="layui-tab-item">中邮保险价值转型成效显著</div>
+      <div class="layui-tab-item">邮储银行一季度经营发展稳健开局 “五大差异化增长极”建设成效...</div>
+      <div class="layui-tab-item layui-show">
+        <ol id="wu">
+        <li>中国邮政集团有限公司关于公开征集《甲辰年》特种邮票... <span>2023-02-08</span></li>
+        <li>中国邮政集团有限公司任免通知<span>2023-02-08</span></li>
+        <li>中国共产党中国邮政集团有限公司党组任免通知<span>2023-02-08</span></li>
+        <li>中国邮政集团有限公司任免通知<span>2023-02-08</span></li>
+        <li>中国共产党中国邮政集团有限公司党组任免通知<span>2023-02-08</span></li>
+        <li>2023中国邮政网络春晚优秀节目评选及优秀观众评选结果...<span>2023-02-08</span></li>
+        <li>中国邮政集团有限公司审计部南京分部面向系统内招聘公...<span>2023-02-08</span></li>
+    </ol>
+</div>
+    </div>
+   
+  </div>
+   <div id="sss"> 
+      <span>强邮争先峰 建功新时代</span><br><br>
+      <span>了不起的中国，不一样的邮政</span>
+    </div>
+</div>
+<div id="wang">
+  <div id="wang1">邮政网点</div>
+  <div id="zxian">
+  <div id="xian">客服热线</div>
+  <ol id="you">
+  <li>邮政业务 <span>2023-02-08</span></li>
+  <li>邮储银行<span>2023-02-08</span></li>
+  <li>速递物流<span>2023-02-08</span></li>
+  <li>中邮保险<span>2023-02-08</span></li>
+  <li>中邮证券<span>2023-02-08</span></li>
+</ol>
+<button id="ton">举报专区</button>
+<div id="mei">邮政新媒体</div>
+<img src="http://www.chinapost.com.cn/res/ChinaPostJT/structure/1813129448.jpg" alt="">
+<img src="http://www.chinapost.com.cn/res/ChinaPostJT/structure/1813478632.jpg" alt=""id="two">
+<img src="http://www.chinapost.com.cn/res/ChinaPostJT/structure/1814288693.jpg" alt="">
+</div>
+  <div id="wang2">邮政官网新增邮政营业网点公开信息</div>
+  <div id="container" class="map" tabindex="0"></div>
+</div>
+</div>
+<div id="bottom">
+<div id="nav1">
+  友情链接:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <span>中国政府网&nbsp&nbsp&nbsp&nbsp|</span>
+  <span>财政部&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+  <span>交通运输部&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+  <span>国家邮政局</span>
+</div>
+<div id="nav2">
+  <span>中国邮政集团有限公司版权所有&nbsp&nbsp&nbsp&nbsp|</span>
+  <span>京ICP备15035540号&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+  <span>京公安备110401400185&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+  <span>联系我们</span>
+</div>
+</div>
+    <script src="swiper-bundle.min.js"></script>
+     <script src="https://unpkg.com/layui@2.6.8/dist/layui.js"></script>
+    <!-- Initialize Swiper -->
+    <script type="text/javascript">
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      //地图
+var SOC = 'CHN'
+var colors = {};
+var GDPSpeed = {
+    '520000':10,//贵州
+    '540000':10,//西藏
+    '530000':8.5,//云南 
+    '500000':8.5,//重庆
+    '360000':8.5,//江西
+    '340000':8.0,//安徽
+    '510000':7.5,//四川
+    '350000':8.5,//福建
+    '430000':8.0,//湖南
+    '420000':7.5, //湖北
+    '410000':7.5,//河南
+    '330000':7.0,//浙江
+    '640000':7.5,//宁夏
+    '650000':7.0,//新疆
+    '440000':7.0,//广东
+    '370000':7.0,//山东
+    '450000':7.3,//广西
+    '630000':7.0,//青海
+    '320000':7.0,//江苏
+    '140000':6.5,//山西
+    '460000':7,// 海南
+    '310000':6.5,//上海
+    '110000':6.5, // 北京
+    '130000':6.5, // 河北
+    '230000':6, // 黑龙江
+    '220000':6,// 吉林
+    '210000':6.5, //辽宁
+    '150000':6.5,//内蒙古
+    '120000':5,// 天津
+    '620000':6,// 甘肃
+    '610000':8.5,// 甘肃
+    '710000':6.64, //台湾
+    '810000':6.0, //香港
+    '820000':6.7 //澳门
+
+}
+var getColorByDGP = function(adcode){
+    if(!colors[adcode]){
+        var gdp = GDPSpeed[adcode];
+        if(!gdp){
+            colors[adcode] = 'rgb(227,227,227)'
+        }else{   
+            var rg = 255-Math.floor((gdp-5)/5*255);
+            colors[adcode] = 'rgb('+ rg +','+ rg +',255)';
+        }
+    }
+    return colors[adcode]
+}
+
+var disCountry = new AMap.DistrictLayer.Country({
+    zIndex:10,
+    SOC:'CHN',
+    depth:2,
+    styles:{
+        'nation-stroke':'#f09',
+        'coastline-stroke':[0.85, 0.63, 0.94, 1],
+        'province-stroke':'white',
+        'city-stroke': 'rgba(255,255,255,0.15)',//中国特有字段
+        'fill':function(props){//中国特有字段
+           return getColorByDGP(props.adcode_pro)
+        }
+    }
+})
+
+
+var map = new AMap.Map("container",{
+        zooms: [4, 8],
+  		center:[104.188488,34.302032],
+        showIndoorMap:false,
+        zoom: 3,
+        isHotspot:false,
+        defaultCursor:'pointer',
+        touchZoomCenter:1,
+        pitch: 0,
+        layers:[
+            disCountry,
+            new AMap.TileLayer.Satellite()
+        ],
+        viewMode:'3D',
+})
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <ul id="spp">
+     <li>一线风采</li>
+     <li>媒体聚焦</li>
+     <li>综合新闻</li>
+     <li>集团要闻</li>
+    </ul>
+    <div id='rig'>
+        <h2>2023第19届中华全国集邮展览开幕</h2>
+        <span>珍邮耀春城，集藏品天下。4月27日，2023第19届中华全国集邮展览在云南昆明滇池国际会展中心隆重开幕。十二届全国政协副主席、中国福利会主...</span>
+    </div>
+    <ol id="wu">
+        <li>邮储银行党委举办主题教育读书班 <span>2023-04-27</span></li>
+        <li>中邮保险价值转型成效显著<span>2023-04-27</span></li>
+        <li>邮储银行一季度经营发展稳健开局 “五大差异化增长极”建设成效...<span>2023-04-27</span></li>
+        <li>中国邮政助力法院审判执行质效提高实现双赢多赢共赢<span>2023-04-27</span></li>
+        <li>集团公司表彰2022年劳动竞赛先进集体和个人<span>2023-04-27</span></li>
+    </ol> -->

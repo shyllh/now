@@ -1,0 +1,315 @@
+select {
+  border: none;
+  margin-left: 10px;
+  background-color: azure;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  margin-left: 15px;
+}
+#box {
+  float: right;
+  width: 600px;
+  margin-top: 8px;
+}
+span {
+  color: gray;
+}
+#top {
+  width: 100%;
+  background-color: azure;
+  height: 30px;
+  margin-top: 10px;
+}
+li {
+  width: 120px;
+  height: 100px;
+  list-style: none;
+  float: left;
+}
+li a {
+  font-size: 20px;
+}
+ul {
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  left: 15%;
+}
+b {
+  width: 100px;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 1%;
+}
+#center {
+  margin: auto;
+  width: 1300px;
+  position: relative;
+}
+#sou {
+  float: right;
+  margin-top: 1%;
+  width: 235px;
+  border: 1px solid black;
+}
+#sou #inp {
+  height: 28px;
+  border: none;
+}
+#sou #btn {
+  height: 33px;
+  width: 60px;
+  background-color: #069e48;
+  border: none;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+}
+#erlun {
+  width: 600px;
+  height: 400px;
+  margin-top: 30px;
+  float: left;
+}
+#cenbut {
+  width: 100%;
+  height: 500px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#fei {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #099466;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 17%;
+  left: 83%;
+  z-index: 1;
+}
+#tan {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.one {
+  width: 160px;
+  font-size: 30px;
+  letter-spacing: 0.3em;
+  line-height: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+#spp {
+  width: 700px;
+  margin-top: 60px;
+  float: right;
+  height: 450px;
+}
+#spp li {
+  width: 120px;
+  height: 50px;
+  float: right;
+  font-size: 30px;
+  margin-left: 30px;
+}
+#spp li:last-child {
+  margin-left: 0px;
+}
+#rig {
+  width: 680px;
+  float: left;
+  margin-top: 3%;
+  border-bottom: 1px solid gainsboro;
+  margin-left: 20px;
+}
+#wu {
+  width: 600px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+}
+#wu li {
+  width: 100%;
+  height: 50px;
+  font-size: 10px;
+}
+li span {
+  float: right;
+}
+#radi {
+  width: 100%;
+  color: #000;
+  font-size: 30px;
+  display: inline-block;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+}
+#shi {
+  width: 100%;
+}
+video {
+  float: left;
+  width: 600px;
+}
+#sss {
+  width: 600px;
+  height: 50px;
+  position: absolute;
+  top: 67%;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+#sss span {
+  color: #000;
+}
+#wang1 {
+  width: 894px;
+  color: #000;
+  font-size: 30px;
+  display: inline-block;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+#wang2 {
+  width: 894px;
+  height: 60px;
+  line-height: 60px;
+}
+.amap-copyright {
+  color: grey;
+}
+.map {
+  width: 894px;
+  height: 550px;
+  margin-top: 30px;
+}
+#xian {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-size: 30px;
+  margin-top: 3%;
+}
+#zxian {
+  width: 328px;
+  float: right;
+}
+#you {
+  width: 100%;
+  float: right;
+}
+#you li {
+  width: 100%;
+  height: 60px;
+  color: #000;
+  font-size: 20px;
+}
+#you span {
+  color: #18AE66;
+}
+#ton {
+  width: 300px;
+  height: 50px;
+  background-color: #18AE66;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  margin: auto;
+}
+#mei {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-size: 30px;
+  margin-top: 3%;
+}
+#zxian img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+#zxian img:first-child {
+  margin-right: 62px;
+}
+#zxian img:last-child {
+  margin-top: 10px;
+}
+#two {
+  margin-left: 90px;
+}
+#bottom {
+  width: 100%;
+  margin-top: 60px;
+  background-color: aliceblue;
+  padding-top: 10px;
+}
+#nav1 {
+  width: 550px;
+  margin: auto;
+  color: #8e8e8e;
+  border-bottom: 1px solid #ccc;
+}
+#nav1 span {
+  width: 100px;
+  height: 30px;
+  color: #000;
+  display: inline-block;
+}
+#nav2 {
+  width: 700px;
+  margin: auto;
+}
