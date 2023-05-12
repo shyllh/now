@@ -19,32 +19,31 @@
      <script>
  
  var chartDom = document.getElementById('main');
- var myChart = echarts.init(chartDom);
- var option;
- 
- option = {
-   xAxis: {
-     type: 'category',
-     data: ['00.00', '03.00',  '06.00','12.00', '15.00','18.00','21.00']
-   },
-   yAxis: {
-     type: 'value'
-   },
-   legend:{
+var myChart = echarts.init(chartDom);
+var option;
+
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['00.00', '03.00',  '06.00','12.00', '15.00','18.00','21.00']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  legend:{
     data:['新增会员'],
     left:330
    },
    series: [
      {
       name:"新增会员",
-       data: [35, 0, 12, 40, 30, 25,0],
-       type: 'line',
-       smooth: true
-     }
-   ],
- };
- 
- option && myChart.setOption(option);
+      data: [35, 0, 12, 40, 30, 25,0],
+      type: 'line'
+    }
+  ]
+};
+
+option && myChart.setOption(option);;
      </script>
 </body>
 </html>
